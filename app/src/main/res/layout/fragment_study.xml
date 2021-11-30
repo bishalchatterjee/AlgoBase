@@ -235,6 +235,7 @@
             android:orientation="vertical"
             android:overScrollMode="never"
             android:scrollbarStyle="insideOverlay"
+            android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -252,8 +253,7 @@
                 <include layout="@layout/res_item_1" />
                 <include layout="@layout/res_item_2" />
                 <include layout="@layout/res_item_3" />
-                <include layout="@layout/res_item_4" />
-                <include layout="@layout/res_item_5" />
+
 
 
             </LinearLayout>

@@ -16,7 +16,7 @@
             android:layout_height="250dp"
             android:layout_marginBottom="10dp"
 
-            app:cardBackgroundColor="#C6D9F8"
+            app:cardBackgroundColor="#001433"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,20 +29,20 @@
                 android:layout_margin="20dp"
                 android:fontFamily="@font/krona_one"
                 android:text="Popular Roadmaps"
-                android:textColor="#000000"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textStyle="normal" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="70dp"
                 android:layout_alignParentTop="true"
+                android:layout_marginTop="70dp"
                 android:fillViewport="true"
-                android:measureAllChildren="false"
-                android:scrollbars="none"
                 android:isScrollContainer="true"
-                android:padding="10dp">
+                android:measureAllChildren="false"
+                android:padding="10dp"
+                android:scrollbars="none">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -56,121 +56,134 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/androiddev"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/androiddev" />
+
                     <ImageView
                         android:id="@+id/angular_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/angular"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/angular" />
+
                     <ImageView
                         android:id="@+id/backend_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/backend"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/backend" />
+
                     <ImageView
                         android:id="@+id/cn_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/cn"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cn" />
+
                     <ImageView
                         android:id="@+id/cp_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/cp"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/cp" />
+
                     <ImageView
                         android:id="@+id/dbms_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/dbms"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dbms" />
+
                     <ImageView
                         android:id="@+id/devops_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/devops"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/devops" />
+
                     <ImageView
                         android:id="@+id/frontend_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/frontend"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/frontend" />
+
                     <ImageView
                         android:id="@+id/java_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/java"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/java" />
+
                     <ImageView
                         android:id="@+id/ml_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/machinelearning"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/machinelearning" />
+
                     <ImageView
                         android:id="@+id/oops_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/oops"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/oops" />
+
                     <ImageView
                         android:id="@+id/os_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/operatingsystems"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/operatingsystems" />
+
                     <ImageView
                         android:id="@+id/python_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/python"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/python" />
+
                     <ImageView
                         android:id="@+id/react_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/react"
-                        android:scaleType="fitXY"/>
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/react" />
+
                     <ImageView
                         android:id="@+id/placements_iv"
                         android:layout_width="290dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/resources_iv_back"
-                        app:srcCompat="@drawable/placements"
-                        android:scaleType="fitXY"/>
-
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/placements" />
 
 
                 </LinearLayout>

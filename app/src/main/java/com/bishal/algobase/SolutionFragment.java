@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -24,7 +25,19 @@ public class SolutionFragment extends Fragment {
                //defining webview
                 webView=view.findViewById(R.id.webView);
                 webView.setWebViewClient(new WebViewClient());
+                webView.getSettings().setBuiltInZoomControls(true);
+                webView.getSettings().setDisplayZoomControls(false);
+
+                webView.getSettings().setPluginState(WebSettings.PluginState.ON);
+                webView.getSettings().setJavaScriptEnabled(true);
+                webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
+                webView.getSettings().setSupportMultipleWindows(false);
+                webView.setVerticalScrollBarEnabled(false);
+                webView.setHorizontalScrollBarEnabled(false);
+
                 webView.loadUrl(value);
+
+
 
 
 

@@ -97,7 +97,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/CN.png");
+                bundle.putString("YourKey", "https://whimsical.com/networking-cheatsheet-by-love-babbar-FcLExFDezehhfsbDPfZDBv                                                                 ");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -111,7 +111,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/CP.png");
+                bundle.putString("YourKey", "https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -125,7 +125,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/DBMS.png");
+                bundle.putString("YourKey", "https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo  ");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -181,7 +181,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/ML.png");
+                bundle.putString("YourKey", "https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -195,7 +195,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/OOPS.png");
+                bundle.putString("YourKey", "https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -209,7 +209,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/OS.png");
+                bundle.putString("YourKey", "https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -251,7 +251,7 @@ public class StudyFragment extends Fragment {
 
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/Image%20assets%20for%20app/PLACEMENT.png");
+                bundle.putString("YourKey", "https://whimsical.com/4th-year-roadmap-to-dream-placement-WB2HTZixtsohXoDcvr6Me7");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();

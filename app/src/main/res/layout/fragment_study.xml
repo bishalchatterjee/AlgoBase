@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProblemsFragment"
+    android:id="@+id/frame_layout2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="322dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/krona_one"
+            android:text="Resources"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.84" />
+
+        <ImageView
+            android:id="@+id/menu_iv"
+            android:layout_width="51dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/menu_vector"
+            android:tint="#131212"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.98"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.285" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                app:cardBackgroundColor="#001433"
+                app:cardCornerRadius="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="14dp">
+
+                    <ViewFlipper
+                        android:id="@+id/fiewflipper_images"
+                        android:layout_width="130dp"
+                        android:layout_height="113dp"
+                        android:autoStart="true"
+                        android:flipInterval="4000"
+                        android:inAnimation="@android:anim/slide_in_left"
+                        android:outAnimation="@android:anim/slide_out_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_1" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_2" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_3" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_4" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_5" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_6" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_7" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_8" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_9" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_10" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_11" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/vf_12" />
+
+                    </ViewFlipper>
+
+                    <ViewFlipper
+                        android:id="@+id/viewflipper_motivational_quotes"
+                        android:layout_width="203dp"
+                        android:layout_height="113dp"
+                        android:autoStart="true"
+                        android:flipInterval="4000"
+                        android:inAnimation="@android:anim/slide_in_left"
+                        android:outAnimation="@android:anim/slide_out_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/fiewflipper_images"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“First, solve the problem. Then, write the code.” – John Johnson”"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“Experience is the name everyone gives to their mistakes.” – Oscar Wilde"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“Fix the cause, not the symptom.” – Steve Maguire"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“Optimism is an occupational hazard of programming: feedback is the treatment. “-Kent Beck"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“Before software can be reusable it first has to be usable.” – Ralph Johnson"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/helvetica"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="“Make it work, make it right, make it fast.” – Kent Beck"
+                            android:textColor="@color/white" />
+
+
+                    </ViewFlipper>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="427dp"
+            android:fadeScrollbars="true"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:scrollbarStyle="insideOverlay"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/res_item_1" />
+                <include layout="@layout/res_item_2" />
+                <include layout="@layout/res_item_3" />
+                <include layout="@layout/res_item_4" />
+                <include layout="@layout/res_item_5" />
+
+
+            </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

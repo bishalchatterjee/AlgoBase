@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040678281369",
+    "project_id": "algobase-aae0a",
+    "storage_bucket": "algobase-aae0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040678281369:android:e8d451cdecd21f37a35808",
+        "android_client_info": {
+          "package_name": "com.bishal.algobase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040678281369-capa88ps1erp9va4q5diejm8d0o0de8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_JVtC_zFesd3rizXBfbDpoQyz_DSFPd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040678281369-capa88ps1erp9va4q5diejm8d0o0de8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

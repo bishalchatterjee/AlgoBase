@@ -55,7 +55,7 @@
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/geeksforgeeks"
+                        android:background="@drawable/gfg"
                         android:scaleType="fitXY" />
                     <ImageView
                         android:id="@+id/site2_iv"
@@ -112,6 +112,13 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/w3school"
+                        android:scaleType="fitXY" />
+                    <ImageView
+                        android:id="@+id/site10_iv"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/interviewbit"
                         android:scaleType="fitXY" />
 
 

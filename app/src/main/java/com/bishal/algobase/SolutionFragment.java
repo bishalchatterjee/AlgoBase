@@ -32,8 +32,12 @@ public class SolutionFragment extends Fragment {
                 webView.getSettings().setJavaScriptEnabled(true);
                 webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
                 webView.getSettings().setSupportMultipleWindows(false);
+
                 webView.setVerticalScrollBarEnabled(false);
                 webView.setHorizontalScrollBarEnabled(false);
+
+                webView.getSettings().setLoadWithOverviewMode(true);
+                webView.getSettings().setUseWideViewPort(true);
 
                 webView.loadUrl(value);
 

@@ -11,10 +11,10 @@
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/item_1"
+            android:id="@+id/ds_item_1"
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             app:cardBackgroundColor="#EE2F1B51"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"

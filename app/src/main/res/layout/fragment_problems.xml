@@ -84,6 +84,26 @@ tools:context=".ProblemsFragment"
 
                 <include layout="@layout/p_10" />
 
+                <include layout="@layout/p_11" />
+
+                <include layout="@layout/p_12" />
+
+                <include layout="@layout/p_13" />
+
+                <include layout="@layout/p_14" />
+
+                <include layout="@layout/p_15" />
+
+                <include layout="@layout/p_16" />
+
+                <include layout="@layout/p_17" />
+
+                <include layout="@layout/p_18" />
+
+                <include layout="@layout/p_19" />
+
+                <include layout="@layout/p_20" />
+
 
             </LinearLayout>
 

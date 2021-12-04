@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
+        android:name=".AppNotificationApplication"
         android:theme="@style/Theme.AlgoBase">
         <activity android:name=".WebActivity"></activity>
         <activity android:name=".GoogleActivity" />

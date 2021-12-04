@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bishal.algobase">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -12,6 +12,7 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgoBase">
+        <activity android:name=".WebActivity"></activity>
         <activity android:name=".GoogleActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".DashboardActivity" />

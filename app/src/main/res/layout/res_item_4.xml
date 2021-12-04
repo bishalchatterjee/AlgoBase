@@ -50,22 +50,14 @@
                     android:orientation="horizontal">
 
 
+
                     <ImageView
                         android:id="@+id/compiler1_iv"
-                        android:layout_width="300dp"
+                        android:layout_width="380dp"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/piler1"
+                        android:background="@drawable/onlinecompiler1"
                         android:scaleType="fitXY" />
-                    <ImageView
-                        android:id="@+id/compiler2_iv"
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:background="@drawable/piler2"
-                        android:scaleType="fitXY" />
-
-
 
 
                 </LinearLayout>

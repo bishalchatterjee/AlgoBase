@@ -71,8 +71,8 @@
 
                     <ViewFlipper
                         android:id="@+id/fiewflipper_images"
-                        android:layout_width="130dp"
-                        android:layout_height="113dp"
+                        android:layout_width="170dp"
+                        android:layout_height="150dp"
                         android:autoStart="true"
                         android:flipInterval="4000"
                         android:inAnimation="@android:anim/slide_in_left"
@@ -147,7 +147,7 @@
                     <ViewFlipper
                         android:id="@+id/viewflipper_motivational_quotes"
                         android:layout_width="203dp"
-                        android:layout_height="113dp"
+                        android:layout_height="150dp"
                         android:autoStart="true"
                         android:flipInterval="4000"
                         android:inAnimation="@android:anim/slide_in_left"

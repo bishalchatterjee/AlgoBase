@@ -14,7 +14,7 @@ public class StudyFragment extends Fragment {
     ImageView menu_iv,androiddev_iv,angular_iv,backend_iv,cn_iv,cp_iv,dbms_iv,devops_iv,frontend_iv,java_iv,ml_iv,oops_iv,os_iv,python_iv,react_iv,placements_iv,
     book1_iv,book2_iv,book3_iv,book4_iv,book5_iv,book6_iv,book7_iv,book8_iv,book9_iv,book10_iv,book11_iv,book12_iv,book13_iv,book14_iv,book15_iv,book16_iv,book17_iv,
     site1_iv,site2_iv,site3_iv,site4_iv,site5_iv,site6_iv,site7_iv,site8_iv,site9_iv,site10_iv,
-    compiler1_iv,compiler2_iv;
+    compiler1_iv;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -81,7 +81,6 @@ public class StudyFragment extends Fragment {
 
         //online compilers
         compiler1_iv=view.findViewById(R.id.compiler1_iv);
-        compiler2_iv=view.findViewById(R.id.compiler2_iv);
 
 
 
@@ -340,7 +339,7 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
 
                 Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://drive.google.com/file/d/1WhPibQc2iAHu_N2se0ePGoMI0kJNJQxc/view?usp=sharing");
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1yJjINH-I41e5h-SC0fUxwASj9lxsM5F_/view?usp=sharing");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
@@ -362,6 +361,201 @@ public class StudyFragment extends Fragment {
 
 
         });
+        book4_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1jFqUJ6qilsZaP1bKSJNtjH8KFzpGaBpA/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book5_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1zsUdPqC_obJvwWuM2Xz6r2-Hxz0_zqe2/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book6_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1sAaz5pPwgNhSXRQHnIry02acgjxJqIgw/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book7_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1Bte2pupMnPSoXQSQUmq93d7p2rl_wrYH/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book8_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1U2fjRA9pN_NyOQZH47T1zWTxKOnBvuvq/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book9_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1cPvOvz21sqz6T-0tKep9uSblgWbRK4-V/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book10_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1vQXSBNVgN8wEQ-2ma3l4QR8l7Yk7CNqB/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book11_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/15H3Jl-v6Vxsqj2SD2g_zfyXy2F8880xu/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book12_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1F7-ovEPiK0uKaxNkZSpRAqxZwDmrkgZq/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book13_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1DA2yZQNNhBANt7wy8-bKcJFrRKMufLuO/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book14_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1spdfEOOefOlWktgZP4cIyeg0FLW7jfzV/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book15_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/16AuJtdD7brhU4uVJFN3c4g2pD3hSRtF6/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book16_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://drive.google.com/file/d/1f9q81TcfL6jMf1pyXYPA_RK8tB-v3FJD/view?usp=sharing");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+        book17_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://github.com/bishalchatterjee/CodingBooks/tree/master/CodingBooks");
+                startActivity(i);
+            }
+
+
+        });
 
         //end of Books on click listeners
 
@@ -369,142 +563,93 @@ public class StudyFragment extends Fragment {
         site1_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.geeksforgeeks.org/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.geeksforgeeks.org/");
+                startActivity(i);
             }
-
-
         });
         site2_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.hackerrank.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.hackerrank.com/");
+                startActivity(i);
             }
-
-
         });
         site3_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.codechef.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.codechef.com/");
+                startActivity(i);
             }
-
-
         });
         site4_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://codeforces.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://codeforces.com/");
+                startActivity(i);
             }
-
-
         });
         site5_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.spoj.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.spoj.com/");
+                startActivity(i);
             }
-
-
         });
         site6_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.freecodecamp.org/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.freecodecamp.org/");
+                startActivity(i);
             }
-
-
         });
         site7_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://icpc.global/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://icpc.global/");
+                startActivity(i);
             }
-
-
         });
         site8_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://leetcode.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://leetcode.com/");
+                startActivity(i);
             }
-
-
         });
         site9_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.w3schools.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.w3schools.com/");
+                startActivity(i);
             }
-
-
         });
         site10_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://www.interviewbit.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://www.interviewbit.com/");
+                startActivity(i);
             }
-
-
         });
 
 
@@ -517,31 +662,15 @@ public class StudyFragment extends Fragment {
         compiler1_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://ide.geeksforgeeks.org/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                //calling webActivity class
+                Intent i = new Intent(getActivity(), WebActivity.class);
+                i.putExtra("Link","https://ideone.com/");
+                startActivity(i);
             }
 
 
         });
-        compiler2_iv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-
-                Bundle bundle = new Bundle();
-                bundle.putString("YourKey", "https://ideone.com/");
-                SolutionFragment sl=new SolutionFragment();
-                sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
-            }
-
-
-        });
 
         //end of Online Compilers on click listeners
 

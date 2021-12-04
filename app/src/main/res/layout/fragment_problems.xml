@@ -104,6 +104,46 @@ tools:context=".ProblemsFragment"
 
                 <include layout="@layout/p_20" />
 
+                <include layout="@layout/p_21" />
+
+                <include layout="@layout/p_22" />
+
+                <include layout="@layout/p_23" />
+
+                <include layout="@layout/p_24" />
+
+                <include layout="@layout/p_25" />
+
+                <include layout="@layout/p_26" />
+
+                <include layout="@layout/p_27" />
+
+                <include layout="@layout/p_28" />
+
+                <include layout="@layout/p_29" />
+
+                <include layout="@layout/p_30" />
+
+                <include layout="@layout/p_31" />
+
+                <include layout="@layout/p_32" />
+
+                <include layout="@layout/p_33" />
+
+                <include layout="@layout/p_34" />
+
+                <include layout="@layout/p_35" />
+
+                <include layout="@layout/p_36" />
+
+                <include layout="@layout/p_37" />
+
+                <include layout="@layout/p_38" />
+
+                <include layout="@layout/p_39" />
+
+                <include layout="@layout/p_40" />
+
 
             </LinearLayout>
 

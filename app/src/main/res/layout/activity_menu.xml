@@ -8,6 +8,18 @@
     tools:context=".MenuActivity">
 
     <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@drawable/menu_background_border" />
+
+    <ImageView
         android:id="@+id/imageView10"
         android:layout_width="24dp"
         android:layout_height="29dp"
@@ -17,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.34"
-        app:srcCompat="@drawable/menu_arrow_vector" />
+        app:srcCompat="@drawable/menu_arrow_vector_down" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -29,10 +41,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.264"
-        app:srcCompat="@drawable/menu_arrow_vector" />
+        app:srcCompat="@drawable/menu_arrow_vector_down" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/slideDown_iv"
         android:layout_width="24dp"
         android:layout_height="29dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +53,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.185"
-        app:srcCompat="@drawable/menu_arrow_vector" />
+        app:srcCompat="@drawable/menu_arrow_vector_down" />
 
     <TextView
         android:id="@+id/app_title_menu"
@@ -172,6 +184,8 @@
         app:layout_constraintVertical_bias="0.254"
         app:srcCompat="@drawable/menu_background_border" />
 
+
+
     <TextView
         android:id="@+id/menu_item_4"
         android:layout_width="wrap_content"
@@ -222,7 +236,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.418"
-        app:srcCompat="@drawable/menu_arrow_vector" />
+        app:srcCompat="@drawable/menu_arrow_vector_down" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

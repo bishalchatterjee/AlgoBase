@@ -14,7 +14,9 @@ public class ProblemsFragment extends Fragment {
 
     ImageView menu_iv;
     CardView problem1,problem2,problem3,problem4,problem5,problem6,problem7,problem8,
-            problem9,problem10,problem11,problem12,problem13,problem14,problem15,problem16,problem17,problem18,problem19,problem20;
+             problem9,problem10,problem11,problem12,problem13,problem14,problem15,problem16,problem17,problem18,problem19,problem20,
+             problem21,problem22,problem23,problem24,problem25,problem26,problem27,problem28,problem29,problem30,
+             problem31,problem32,problem33,problem34,problem35,problem36,problem37,problem38,problem39,problem40;
 
 
 
@@ -51,6 +53,27 @@ public class ProblemsFragment extends Fragment {
         problem18=view.findViewById(R.id.p_18);
         problem19=view.findViewById(R.id.p_19);
         problem20=view.findViewById(R.id.p_20);
+        problem21=view.findViewById(R.id.p_21);
+        problem22=view.findViewById(R.id.p_22);
+        problem23=view.findViewById(R.id.p_23);
+        problem24=view.findViewById(R.id.p_24);
+        problem25=view.findViewById(R.id.p_25);
+        problem26=view.findViewById(R.id.p_26);
+        problem27=view.findViewById(R.id.p_27);
+        problem28=view.findViewById(R.id.p_28);
+        problem29=view.findViewById(R.id.p_29);
+        problem30=view.findViewById(R.id.p_30);
+        problem31=view.findViewById(R.id.p_31);
+        problem32=view.findViewById(R.id.p_32);
+        problem33=view.findViewById(R.id.p_33);
+        problem34=view.findViewById(R.id.p_34);
+        problem35=view.findViewById(R.id.p_35);
+        problem36=view.findViewById(R.id.p_36);
+        problem37=view.findViewById(R.id.p_37);
+        problem38=view.findViewById(R.id.p_38);
+        problem39=view.findViewById(R.id.p_39);
+        problem40=view.findViewById(R.id.p_40);
+
 
 
 
@@ -322,6 +345,265 @@ public class ProblemsFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question20.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //Using Bundle to send data to Solution fragment
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question21.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+
+
+        problem22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question22.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question23.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question24.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question25.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question26.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question27.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question28.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question29.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question30.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+
+        problem31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //Using Bundle to send data to Solution fragment
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question31.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+
+        });
+
+
+        problem32.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question32.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem33.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question33.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem34.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question34.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem35.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question35.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem36.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question36.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem37.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question37.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem38.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question38.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+
+        problem39.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question39.java");
+                SolutionFragment sl=new SolutionFragment();
+                sl.setArguments(bundle);
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();
+            }
+
+        });
+        problem40.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("YourKey", "https://github.com/bishalchatterjee/AlgoBase-ProblemCodes/blob/master/question40.java");
                 SolutionFragment sl=new SolutionFragment();
                 sl.setArguments(bundle);
                 getFragmentManager().beginTransaction().replace(R.id.frame_layout1,sl).addToBackStack(null).commit();

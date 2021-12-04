@@ -23,7 +23,7 @@ tools:context=".ProblemsFragment"
             android:textAlignment="gravity"
             android:textColor="@color/black"
             android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintBottom_toTopOf="@+id/scrollview3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.179"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,8 @@ tools:context=".ProblemsFragment"
             app:layout_constraintVertical_bias="0.285" />
 
         <ScrollView
-            android:layout_width="409dp"
+            android:id="@+id/scrollview3"
+            android:layout_width="match_parent"
             android:layout_height="635dp"
             android:fadeScrollbars="true"
             android:orientation="vertical"
@@ -61,24 +62,30 @@ tools:context=".ProblemsFragment"
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <include layout="@layout/p_1" />
+
                 <include layout="@layout/p_2" />
+
                 <include layout="@layout/p_3" />
+
                 <include layout="@layout/p_4" />
+
                 <include layout="@layout/p_5" />
+
                 <include layout="@layout/p_6" />
+
                 <include layout="@layout/p_7" />
+
                 <include layout="@layout/p_8" />
+
                 <include layout="@layout/p_9" />
+
                 <include layout="@layout/p_10" />
 
 
             </LinearLayout>
-
-
-
 
 
         </ScrollView>

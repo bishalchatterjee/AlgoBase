@@ -31,13 +31,16 @@ public class SolutionFragment extends Fragment {
                 webView.getSettings().setPluginState(WebSettings.PluginState.ON);
                 webView.getSettings().setJavaScriptEnabled(true);
                 webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
+                webView.getSettings().setUseWideViewPort(true);
+                webView.requestFocus(View.FOCUS_DOWN);
                 webView.getSettings().setSupportMultipleWindows(false);
 
                 webView.setVerticalScrollBarEnabled(false);
                 webView.setHorizontalScrollBarEnabled(false);
 
                 webView.getSettings().setLoadWithOverviewMode(true);
-                webView.getSettings().setUseWideViewPort(true);
+
+
 
                 webView.loadUrl(value);
 

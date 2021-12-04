@@ -60,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
                 app:cardBackgroundColor="#001433"
                 app:cardCornerRadius="10dp">
 
@@ -231,6 +232,7 @@
             android:id="@+id/scrollView3"
             android:layout_width="match_parent"
             android:layout_height="427dp"
+            android:layout_marginTop="15dp"
             android:fadeScrollbars="true"
             android:orientation="vertical"
             android:overScrollMode="never"
@@ -240,24 +242,27 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:padding="14dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <include layout="@layout/res_item_1" />
-                <include layout="@layout/res_item_2" />
-                <include layout="@layout/res_item_3" />
-                <include layout="@layout/res_item_4" />
+                    <include layout="@layout/res_item_1" />
+
+                    <include layout="@layout/res_item_2" />
+
+                    <include layout="@layout/res_item_3" />
+
+                    <include layout="@layout/res_item_4" />
 
 
-
-            </LinearLayout>
+                </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 

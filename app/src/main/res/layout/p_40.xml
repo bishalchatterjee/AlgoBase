@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:fontFamily="@font/krona_one"
-                android:text="40. Find row with maximum no. of 1's."
+                android:text="40. Find row with maximum no. of 1's in a matrix."
                 android:textColor="#FAF2F2"
                 android:textSize="10sp"
                 android:textStyle="normal" />

@@ -63,7 +63,7 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="26dp"
         android:fontFamily="@font/helveticalight"
         android:text="Don't want to SignUp?"
@@ -89,6 +89,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.869" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

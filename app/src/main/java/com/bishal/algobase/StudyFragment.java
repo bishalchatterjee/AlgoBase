@@ -1,11 +1,16 @@
 package com.bishal.algobase;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -15,6 +20,8 @@ public class StudyFragment extends Fragment {
     book1_iv,book2_iv,book3_iv,book4_iv,book5_iv,book6_iv,book7_iv,book8_iv,book9_iv,book10_iv,book11_iv,book12_iv,book13_iv,book14_iv,book15_iv,book16_iv,book17_iv,
     site1_iv,site2_iv,site3_iv,site4_iv,site5_iv,site6_iv,site7_iv,site8_iv,site9_iv,site10_iv,
     compiler1_iv;
+    
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -23,6 +30,7 @@ public class StudyFragment extends Fragment {
         View view= inflater.inflate(R.layout.fragment_study, container, false);
 
         menu_iv=view.findViewById(R.id.menu_iv);
+
 
 
         //Roadmaps
@@ -84,7 +92,30 @@ public class StudyFragment extends Fragment {
 
 
 
-        
+
+
+        //to check if device is connected to internet
+        ConnectivityManager mConnectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
+        if(mNetworkInfo == null) {
+
+
+
+
+
+            view.setAlpha(0.5f);
+            //if not connected display the internet request toast
+            View layouttoast = inflater.inflate(R.layout.internet_request, container, false);
+
+            final Toast custom_toast = new Toast(getContext());
+            custom_toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+            custom_toast.setDuration(Toast.LENGTH_SHORT);
+            custom_toast.setView(layouttoast);
+            custom_toast.show(); //custom toast
+            custom_toast.setDuration((int)8000);
+
+
+        }
 
 
 
@@ -96,6 +127,8 @@ public class StudyFragment extends Fragment {
                 startActivity(i);
             }
         });
+
+
 
 
         //start of Road-Map on click listeners

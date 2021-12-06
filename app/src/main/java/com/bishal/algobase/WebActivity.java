@@ -30,7 +30,6 @@ public class WebActivity extends AppCompatActivity {
 
 
 
-
         //defining webview
         webView=findViewById(R.id.webView);
 

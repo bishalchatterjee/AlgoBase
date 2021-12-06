@@ -20,7 +20,6 @@ public class StudyFragment extends Fragment {
     book1_iv,book2_iv,book3_iv,book4_iv,book5_iv,book6_iv,book7_iv,book8_iv,book9_iv,book10_iv,book11_iv,book12_iv,book13_iv,book14_iv,book15_iv,book16_iv,book17_iv,
     site1_iv,site2_iv,site3_iv,site4_iv,site5_iv,site6_iv,site7_iv,site8_iv,site9_iv,site10_iv,
     compiler1_iv;
-    
 
 
     @Override
@@ -30,7 +29,6 @@ public class StudyFragment extends Fragment {
         View view= inflater.inflate(R.layout.fragment_study, container, false);
 
         menu_iv=view.findViewById(R.id.menu_iv);
-
 
 
         //Roadmaps
@@ -94,16 +92,16 @@ public class StudyFragment extends Fragment {
 
 
 
+
+
         //to check if device is connected to internet
         ConnectivityManager mConnectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
         if(mNetworkInfo == null) {
 
-
-
-
-
             view.setAlpha(0.5f);
+
+
             //if not connected display the internet request toast
             View layouttoast = inflater.inflate(R.layout.internet_request, container, false);
 

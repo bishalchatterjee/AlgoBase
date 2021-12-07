@@ -8,16 +8,25 @@
     <application
         android:name=".AppNotificationApplication"
         android:allowBackup="true"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/icon"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgoBase">
-        <activity android:name=".SignupActivity"></activity>
-        <activity android:name=".WebActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".WebActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DashboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

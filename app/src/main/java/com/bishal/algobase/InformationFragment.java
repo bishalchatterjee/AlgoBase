@@ -17,9 +17,8 @@ public class InformationFragment extends Fragment {
         String value = getArguments().getString("YourKey");
 
 
-
-       if(value.equals("1"))
-        return inflater.inflate(R.layout.ds_arrays, container, false);
+        if(value.equals("1"))
+           return inflater.inflate(R.layout.ds_arrays, container, false);
        else if (value.equals("2"))
            return inflater.inflate(R.layout.ds_linkedlist, container, false);
        else if (value.equals("3"))

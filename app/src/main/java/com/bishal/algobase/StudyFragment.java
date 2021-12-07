@@ -16,89 +16,83 @@ import androidx.fragment.app.Fragment;
 
 
 public class StudyFragment extends Fragment {
-    ImageView menu_iv,androiddev_iv,angular_iv,backend_iv,cn_iv,cp_iv,dbms_iv,devops_iv,frontend_iv,java_iv,ml_iv,oops_iv,os_iv,python_iv,react_iv,placements_iv,
-    book1_iv,book2_iv,book3_iv,book4_iv,book5_iv,book6_iv,book7_iv,book8_iv,book9_iv,book10_iv,book11_iv,book12_iv,book13_iv,book14_iv,book15_iv,book16_iv,book17_iv,
-    site1_iv,site2_iv,site3_iv,site4_iv,site5_iv,site6_iv,site7_iv,site8_iv,site9_iv,site10_iv,
-    compiler1_iv;
+    ImageView menu_iv, androiddev_iv, angular_iv, backend_iv, cn_iv, cp_iv, dbms_iv, devops_iv, frontend_iv, java_iv, ml_iv, oops_iv, os_iv, python_iv, react_iv, placements_iv,
+            book1_iv, book2_iv, book3_iv, book4_iv, book5_iv, book6_iv, book7_iv, book8_iv, book9_iv, book10_iv, book11_iv, book12_iv, book13_iv, book14_iv, book15_iv, book16_iv, book17_iv,
+            site1_iv, site2_iv, site3_iv, site4_iv, site5_iv, site6_iv, site7_iv, site8_iv, site9_iv, site10_iv,
+            compiler1_iv;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_study, container, false);
+        View view = inflater.inflate(R.layout.fragment_study, container, false);
 
-        menu_iv=view.findViewById(R.id.menu_iv);
+        menu_iv = view.findViewById(R.id.menu_iv);
 
 
         //Roadmaps
-        androiddev_iv=view.findViewById(R.id.androiddev_iv);
-        angular_iv=view.findViewById(R.id.angular_iv);
-        backend_iv=view.findViewById(R.id.backend_iv);
-        cn_iv=view.findViewById(R.id.cn_iv);
-        cp_iv=view.findViewById(R.id.cp_iv);
-        dbms_iv=view.findViewById(R.id.dbms_iv);
-        devops_iv=view.findViewById(R.id.devops_iv);
-        frontend_iv=view.findViewById(R.id.frontend_iv);
-        java_iv=view.findViewById(R.id.java_iv);
-        ml_iv=view.findViewById(R.id.ml_iv);
-        oops_iv=view.findViewById(R.id.oops_iv);
-        os_iv=view.findViewById(R.id.os_iv);
-        python_iv=view.findViewById(R.id.python_iv);
-        react_iv=view.findViewById(R.id.react_iv);
-        placements_iv=view.findViewById(R.id.placements_iv);
+        androiddev_iv = view.findViewById(R.id.androiddev_iv);
+        angular_iv = view.findViewById(R.id.angular_iv);
+        backend_iv = view.findViewById(R.id.backend_iv);
+        cn_iv = view.findViewById(R.id.cn_iv);
+        cp_iv = view.findViewById(R.id.cp_iv);
+        dbms_iv = view.findViewById(R.id.dbms_iv);
+        devops_iv = view.findViewById(R.id.devops_iv);
+        frontend_iv = view.findViewById(R.id.frontend_iv);
+        java_iv = view.findViewById(R.id.java_iv);
+        ml_iv = view.findViewById(R.id.ml_iv);
+        oops_iv = view.findViewById(R.id.oops_iv);
+        os_iv = view.findViewById(R.id.os_iv);
+        python_iv = view.findViewById(R.id.python_iv);
+        react_iv = view.findViewById(R.id.react_iv);
+        placements_iv = view.findViewById(R.id.placements_iv);
 
 
         //eBooks
-        book1_iv=view.findViewById(R.id.book1_iv);
-        book2_iv=view.findViewById(R.id.book2_iv);
-        book3_iv=view.findViewById(R.id.book3_iv);
-        book4_iv=view.findViewById(R.id.book4_iv);
-        book5_iv=view.findViewById(R.id.book5_iv);
-        book6_iv=view.findViewById(R.id.book6_iv);
-        book7_iv=view.findViewById(R.id.book7_iv);
-        book8_iv=view.findViewById(R.id.book8_iv);
-        book9_iv=view.findViewById(R.id.book9_iv);
-        book10_iv=view.findViewById(R.id.book10_iv);
-        book11_iv=view.findViewById(R.id.book11_iv);
-        book12_iv=view.findViewById(R.id.book12_iv);
-        book13_iv=view.findViewById(R.id.book13_iv);
-        book14_iv=view.findViewById(R.id.book14_iv);
-        book15_iv=view.findViewById(R.id.book15_iv);
-        book16_iv=view.findViewById(R.id.book16_iv);
-        book17_iv=view.findViewById(R.id.book17_iv);
-
-
+        book1_iv = view.findViewById(R.id.book1_iv);
+        book2_iv = view.findViewById(R.id.book2_iv);
+        book3_iv = view.findViewById(R.id.book3_iv);
+        book4_iv = view.findViewById(R.id.book4_iv);
+        book5_iv = view.findViewById(R.id.book5_iv);
+        book6_iv = view.findViewById(R.id.book6_iv);
+        book7_iv = view.findViewById(R.id.book7_iv);
+        book8_iv = view.findViewById(R.id.book8_iv);
+        book9_iv = view.findViewById(R.id.book9_iv);
+        book10_iv = view.findViewById(R.id.book10_iv);
+        book11_iv = view.findViewById(R.id.book11_iv);
+        book12_iv = view.findViewById(R.id.book12_iv);
+        book13_iv = view.findViewById(R.id.book13_iv);
+        book14_iv = view.findViewById(R.id.book14_iv);
+        book15_iv = view.findViewById(R.id.book15_iv);
+        book16_iv = view.findViewById(R.id.book16_iv);
+        book17_iv = view.findViewById(R.id.book17_iv);
 
 
         //websites
-        site1_iv=view.findViewById(R.id.site1_iv);
-        site2_iv=view.findViewById(R.id.site2_iv);
-        site3_iv=view.findViewById(R.id.site3_iv);
-        site4_iv=view.findViewById(R.id.site4_iv);
-        site5_iv=view.findViewById(R.id.site5_iv);
-        site6_iv=view.findViewById(R.id.site6_iv);
-        site7_iv=view.findViewById(R.id.site7_iv);
-        site8_iv=view.findViewById(R.id.site8_iv);
-        site9_iv=view.findViewById(R.id.site9_iv);
-        site10_iv=view.findViewById(R.id.site10_iv);
-
+        site1_iv = view.findViewById(R.id.site1_iv);
+        site2_iv = view.findViewById(R.id.site2_iv);
+        site3_iv = view.findViewById(R.id.site3_iv);
+        site4_iv = view.findViewById(R.id.site4_iv);
+        site5_iv = view.findViewById(R.id.site5_iv);
+        site6_iv = view.findViewById(R.id.site6_iv);
+        site7_iv = view.findViewById(R.id.site7_iv);
+        site8_iv = view.findViewById(R.id.site8_iv);
+        site9_iv = view.findViewById(R.id.site9_iv);
+        site10_iv = view.findViewById(R.id.site10_iv);
 
 
         //online compilers
-        compiler1_iv=view.findViewById(R.id.compiler1_iv);
-
-
-
-
-
+        compiler1_iv = view.findViewById(R.id.compiler1_iv);
 
 
         //to check if device is connected to internet
         ConnectivityManager mConnectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo mNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
-        if(mNetworkInfo == null) {
+        if (mNetworkInfo == null) {
 
+
+            //reduce opacity if no internet is available and display the toast
             view.setAlpha(0.5f);
 
 
@@ -110,12 +104,10 @@ public class StudyFragment extends Fragment {
             custom_toast.setDuration(Toast.LENGTH_SHORT);
             custom_toast.setView(layouttoast);
             custom_toast.show(); //custom toast
-            custom_toast.setDuration((int)8000);
+            custom_toast.setDuration((int) 8000);
 
 
         }
-
-
 
 
         menu_iv.setOnClickListener(new View.OnClickListener() {
@@ -127,8 +119,6 @@ public class StudyFragment extends Fragment {
         });
 
 
-
-
         //start of Road-Map on click listeners
 
         androiddev_iv.setOnClickListener(new View.OnClickListener() {
@@ -138,9 +128,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/android");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -152,9 +142,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/angular");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -166,9 +156,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/backend");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -180,9 +170,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/networking-cheatsheet-by-love-babbar-FcLExFDezehhfsbDPfZDBv                                                                 ");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -194,9 +184,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -208,9 +198,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/dbms-roadmap-by-love-babbar-FmUi8ffVop33t3MmpVxPCo  ");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -222,9 +212,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/devops");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -236,9 +226,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/frontend");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -250,9 +240,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/java");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -264,9 +254,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -278,9 +268,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -292,9 +282,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/operating-system-cheatsheet-by-love-babbar-S9tuWBCSQfzoBRF5EDNinQ");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -306,9 +296,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/python");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -320,9 +310,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://roadmap.sh/react");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -334,9 +324,9 @@ public class StudyFragment extends Fragment {
                 //Using Bundle to send data to Solution fragment
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://whimsical.com/4th-year-roadmap-to-dream-placement-WB2HTZixtsohXoDcvr6Me7");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -356,9 +346,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1MaME8sW57H6eLlZvQ4Gqn5y7aVhuxlj5/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -371,9 +361,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1yJjINH-I41e5h-SC0fUxwASj9lxsM5F_/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -385,9 +375,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1daX6bPR_f1wkvNQ2jKFc7Rwr_Q54rp1M/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -399,9 +389,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1jFqUJ6qilsZaP1bKSJNtjH8KFzpGaBpA/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -413,9 +403,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1zsUdPqC_obJvwWuM2Xz6r2-Hxz0_zqe2/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -427,9 +417,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1sAaz5pPwgNhSXRQHnIry02acgjxJqIgw/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -441,9 +431,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1Bte2pupMnPSoXQSQUmq93d7p2rl_wrYH/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -455,9 +445,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1U2fjRA9pN_NyOQZH47T1zWTxKOnBvuvq/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -469,9 +459,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1cPvOvz21sqz6T-0tKep9uSblgWbRK4-V/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -483,9 +473,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1vQXSBNVgN8wEQ-2ma3l4QR8l7Yk7CNqB/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -497,9 +487,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/15H3Jl-v6Vxsqj2SD2g_zfyXy2F8880xu/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -511,9 +501,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1F7-ovEPiK0uKaxNkZSpRAqxZwDmrkgZq/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -525,9 +515,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1DA2yZQNNhBANt7wy8-bKcJFrRKMufLuO/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -539,9 +529,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1spdfEOOefOlWktgZP4cIyeg0FLW7jfzV/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -553,9 +543,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/16AuJtdD7brhU4uVJFN3c4g2pD3hSRtF6/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -567,9 +557,9 @@ public class StudyFragment extends Fragment {
 
                 Bundle bundle = new Bundle();
                 bundle.putString("YourKey", "https://drive.google.com/file/d/1f9q81TcfL6jMf1pyXYPA_RK8tB-v3FJD/view?usp=sharing");
-                SolutionFragment sl=new SolutionFragment();
+                SolutionFragment sl = new SolutionFragment();
                 sl.setArguments(bundle);
-                getFragmentManager().beginTransaction().replace(R.id.frame_layout2,sl).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.frame_layout2, sl).addToBackStack(null).commit();
             }
 
 
@@ -581,7 +571,7 @@ public class StudyFragment extends Fragment {
 
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://github.com/bishalchatterjee/CodingBooks/tree/master/CodingBooks");
+                i.putExtra("Link", "https://github.com/bishalchatterjee/CodingBooks/tree/master/CodingBooks");
                 startActivity(i);
             }
 
@@ -596,7 +586,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.geeksforgeeks.org/");
+                i.putExtra("Link", "https://www.geeksforgeeks.org/");
                 startActivity(i);
             }
         });
@@ -605,7 +595,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.hackerrank.com/");
+                i.putExtra("Link", "https://www.hackerrank.com/");
                 startActivity(i);
             }
         });
@@ -614,7 +604,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.codechef.com/");
+                i.putExtra("Link", "https://www.codechef.com/");
                 startActivity(i);
             }
         });
@@ -623,7 +613,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://codeforces.com/");
+                i.putExtra("Link", "https://codeforces.com/");
                 startActivity(i);
             }
         });
@@ -632,7 +622,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.spoj.com/");
+                i.putExtra("Link", "https://www.spoj.com/");
                 startActivity(i);
             }
         });
@@ -641,7 +631,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.freecodecamp.org/");
+                i.putExtra("Link", "https://www.freecodecamp.org/");
                 startActivity(i);
             }
         });
@@ -650,7 +640,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://icpc.global/");
+                i.putExtra("Link", "https://icpc.global/");
                 startActivity(i);
             }
         });
@@ -659,7 +649,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://leetcode.com/");
+                i.putExtra("Link", "https://leetcode.com/");
                 startActivity(i);
             }
         });
@@ -668,7 +658,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.w3schools.com/");
+                i.putExtra("Link", "https://www.w3schools.com/");
                 startActivity(i);
             }
         });
@@ -678,15 +668,13 @@ public class StudyFragment extends Fragment {
 
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://www.interviewbit.com/");
+                i.putExtra("Link", "https://www.interviewbit.com/");
                 startActivity(i);
             }
         });
 
 
-
         //end of websites on click listeners
-
 
 
         //start of Online Compilers on click listeners
@@ -695,7 +683,7 @@ public class StudyFragment extends Fragment {
             public void onClick(View v) {
                 //calling webActivity class
                 Intent i = new Intent(getActivity(), WebActivity.class);
-                i.putExtra("Link","https://ideone.com/");
+                i.putExtra("Link", "https://ideone.com/");
                 startActivity(i);
             }
 
@@ -706,8 +694,7 @@ public class StudyFragment extends Fragment {
         //end of Online Compilers on click listeners
 
 
-
-
         return view; //finally returning the view
     }
+
 }

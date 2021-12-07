@@ -66,8 +66,11 @@ public class MenuActivity extends AppCompatActivity {
             final String getUsername = googleSignInAccount.getDisplayName();
             final String getGmail = googleSignInAccount.getEmail();
 
-
-            name_tv.setText(getUsername);
+            //checking if first word of name is in UpperCase; if yes change its characters to LowerCase except first character
+            String modifyUsername = "";
+            modifyUsername=getUsername.substring(1, getUsername.indexOf(' '));
+            modifyUsername=modifyUsername.toLowerCase();
+            name_tv.setText(getUsername.charAt(0)+modifyUsername+"!");
 
 
             // if user is logged in we need to hide the log in button & display log out only since both button are overlapping

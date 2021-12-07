@@ -11,7 +11,7 @@
         android:id="@+id/imageView14"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="57dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/imageView10"
         android:layout_width="24dp"
         android:layout_height="29dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="144dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:id="@+id/imageView11"
         android:layout_width="24dp"
         android:layout_height="29dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="92dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,6 @@
         android:id="@+id/app_title_menu"
         android:layout_width="322dp"
         android:layout_height="43dp"
-        android:layout_marginTop="40dp"
         android:fontFamily="@font/krona_one"
         android:text="AlgoBase"
         android:textAlignment="gravity"
@@ -63,10 +62,11 @@
 
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/logout_btn"
@@ -118,7 +118,7 @@
         android:id="@+id/menu_item_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="@font/helvetica"
         android:gravity="start"
         android:text="About"
@@ -135,7 +135,7 @@
         android:id="@+id/menu_item_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="94dp"
         android:fontFamily="@font/helvetica"
         android:gravity="start"
         android:text="Theme"
@@ -151,7 +151,7 @@
         android:layout_width="match_parent"
         android:layout_height="21dp"
 
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="111dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -162,7 +162,7 @@
         android:id="@+id/menu_item_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="147dp"
         android:fontFamily="@font/helvetica"
         android:gravity="start"
         android:text="Rate Us"
@@ -177,7 +177,7 @@
         android:id="@+id/imageView8"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="164dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -188,7 +188,7 @@
         android:id="@+id/menu_item_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="203dp"
         android:fontFamily="@font/helvetica"
         android:gravity="start"
         android:text="Feedback"
@@ -200,11 +200,38 @@
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
+    <TextView
+        android:id="@+id/menu_item_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/helvetica"
+        android:gravity="start"
+        android:text="My Account"
+        android:textColor="#514A4A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="223dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/menu_background_border" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="280dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -216,53 +243,84 @@
         android:layout_width="57dp"
         android:layout_height="43dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/app_title_menu"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734"
+        app:layout_constraintVertical_bias="0.816"
         app:srcCompat="@drawable/support_vector" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="24dp"
         android:layout_height="29dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/menu_arrow_vector_down" />
 
-    <TextView
-        android:id="@+id/hi_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/helveticabold"
-        android:text="Hi,"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/logout_btn"
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="24dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="256dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/menu_arrow_vector_down" />
 
-    <TextView
-        android:id="@+id/name_tv"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/helveticabold"
-        android:text=""
-        android:textColor="#000000"
-        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
         app:layout_constraintBottom_toTopOf="@+id/logout_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.019"
-        app:layout_constraintStart_toEndOf="@+id/hi_tv"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/hi_tv"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/helveticalight"
+            android:text="That's All, "
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/hi_tv"
+            android:fontFamily="@font/helveticalight"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/hi_tv"
+            app:layout_constraintVertical_bias="1.0" />
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

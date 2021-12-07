@@ -6,9 +6,12 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,10 +20,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
-public class MenuActivity extends AppCompatActivity {
-    ImageView slideDown_iv;
+public class MenuActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
     Button login_btn, logout_btn;
     TextView hi_tv, name_tv;
+    Spinner spinner1,spinner2,spinner3,spinner4,spinner5;
 
 
     @Override
@@ -36,6 +39,8 @@ public class MenuActivity extends AppCompatActivity {
         final Animation slide_up = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.slide_up);
 
+
+       //google sign in auth
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .build();
@@ -45,22 +50,38 @@ public class MenuActivity extends AppCompatActivity {
 
         login_btn = findViewById(R.id.login_btn);
         logout_btn = findViewById(R.id.logout_btn);
+
         name_tv = findViewById(R.id.name_tv);
         hi_tv = findViewById(R.id.hi_tv);
 
+        spinner1= findViewById(R.id.spinner1);
+        spinner2= findViewById(R.id.spinner2);
+        spinner3= findViewById(R.id.spinner3);
+        spinner4= findViewById(R.id.spinner4);
+        spinner5= findViewById(R.id.spinner5);
+        ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this,R.array.drowpdown1, android.R.layout.simple_spinner_item);
+        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner1.setAdapter(adapter1);
+        spinner1.setOnItemSelectedListener(this);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,R.array.drowpdown2, android.R.layout.simple_spinner_item);
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner2.setAdapter(adapter2);
+        spinner2.setOnItemSelectedListener(this);
+        ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,R.array.drowpdown3, android.R.layout.simple_spinner_item);
+        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner3.setAdapter(adapter3);
+        spinner3.setOnItemSelectedListener(this);
+        ArrayAdapter<CharSequence> adapter4 = ArrayAdapter.createFromResource(this,R.array.drowpdown4, android.R.layout.simple_spinner_item);
+        adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner4.setAdapter(adapter4);
+        spinner4.setOnItemSelectedListener(this);
+        ArrayAdapter<CharSequence> adapter5 = ArrayAdapter.createFromResource(this,R.array.drowpdown5, android.R.layout.simple_spinner_item);
+        adapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner5.setAdapter(adapter5);
+        spinner5.setOnItemSelectedListener(this);
 
-        slideDown_iv = findViewById(R.id.slideDown_iv);
 
-        slideDown_iv.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View view) {
-
-                //I just did slide_up to test if its working
-                slideDown_iv.setImageResource(R.drawable.menu_arrow_vector_up);
-
-            }
-        });
 
         if (googleSignInAccount != null) {
             final String getUsername = googleSignInAccount.getDisplayName();
@@ -109,4 +130,31 @@ public class MenuActivity extends AppCompatActivity {
 
 
     }
+    //Spinner driver functions
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        //making Spinner text ull
+        ((TextView)view).setText(null);
+        String text = parent.getItemAtPosition(position).toString();
+        Toast.makeText(parent.getContext(), text, Toast.LENGTH_LONG).show();
+
+//        switch (position) {
+//            case 0:
+//                // Whatever you want to happen when the first item gets selected
+//                break;
+//            case 1:
+//                // Whatever you want to happen when the second item gets selected
+//                break;
+//            case 2:
+//                // Whatever you want to happen when the thrid item gets selected
+//                break;
+//        }
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
 }
+//implement onClick directly

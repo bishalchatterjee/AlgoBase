@@ -1,5 +1,26 @@
 <resources>
     <string name="app_name">AlgoBase</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+//spinner array items
+    <string-array name="drowpdown1">
+        <item>Version</item>
+        <item>App Usage Guide</item>
+        <item>Developer Info</item>
+    </string-array>
+    <string-array name="drowpdown2">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="drowpdown3">
+        <item>Rate Now</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="drowpdown4">
+        <item>Mail us</item>
+        <item>Report a Problem/Bug</item>
+        <item>Request to Add/Review</item>
+    </string-array>
+    <string-array name="drowpdown5">
+        <item>Name</item>
+        <item>Gmail</item>
+    </string-array>
 </resources>
